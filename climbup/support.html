@@ -3,13 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Climb Up — Support</title>
+    <title>ClimbUp — Support</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
             background-color: #f9f9f9;
@@ -25,11 +21,7 @@
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
-        h1 {
-            font-size: 28px;
-            margin-bottom: 10px;
-            color: #222;
-        }
+        h1 { font-size: 28px; margin-bottom: 10px; color: #222; }
         .subtitle {
             color: #666;
             font-size: 16px;
@@ -37,50 +29,20 @@
             border-bottom: 1px solid #eee;
             padding-bottom: 20px;
         }
-        h2 {
-            font-size: 20px;
-            margin-top: 30px;
-            margin-bottom: 15px;
-            color: #222;
-        }
-        h3 {
-            font-size: 16px;
-            margin-top: 20px;
-            margin-bottom: 10px;
-            color: #333;
-            font-weight: 600;
-        }
-        p {
-            margin-bottom: 15px;
-            text-align: justify;
-        }
-        ul, ol {
-            margin-left: 20px;
-            margin-bottom: 15px;
-        }
-        li {
-            margin-bottom: 8px;
-        }
-        a {
-            color: #0066cc;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
+        h2 { font-size: 20px; margin-top: 30px; margin-bottom: 15px; color: #222; }
+        h3 { font-size: 16px; margin-top: 20px; margin-bottom: 10px; color: #333; font-weight: 600; }
+        p { margin-bottom: 15px; text-align: justify; }
+        ul, ol { margin-left: 20px; margin-bottom: 15px; }
+        li { margin-bottom: 8px; }
+        a { color: #34C759; text-decoration: none; }
+        a:hover { text-decoration: underline; }
         .faq-item {
             margin-bottom: 25px;
             padding-bottom: 20px;
             border-bottom: 1px solid #eee;
         }
-        .faq-item:last-child {
-            border-bottom: none;
-        }
-        .faq-answer {
-            color: #555;
-            margin-top: 10px;
-            line-height: 1.7;
-        }
+        .faq-item:last-child { border-bottom: none; }
+        .faq-answer { color: #555; margin-top: 10px; line-height: 1.7; }
         .contact-box {
             background-color: #f0f0f0;
             padding: 20px;
@@ -88,13 +50,8 @@
             margin: 20px 0;
             text-align: center;
         }
-        .contact-box p {
-            margin-bottom: 10px;
-        }
-        .contact-box a {
-            font-size: 16px;
-            font-weight: 600;
-        }
+        .contact-box p { margin-bottom: 10px; }
+        .contact-box a { font-size: 16px; font-weight: 600; }
         .footer-link {
             margin-top: 40px;
             padding-top: 20px;
@@ -112,8 +69,8 @@
 </head>
 <body>
     <div class="container">
-        <h1>Climb Up</h1>
-        <div class="subtitle">Track your daily stair climbing, steps, active energy, and sleep patterns</div>
+        <h1>ClimbUp</h1>
+        <div class="subtitle">Track your stair climbing, set goals, and monitor your health</div>
 
         <h2>Contact & Support</h2>
         <p>For questions, feedback, or issues, please email us at:</p>
@@ -127,6 +84,7 @@
             <ul>
                 <li><strong>iOS:</strong> 17.0 or later</li>
                 <li><strong>Device:</strong> iPhone</li>
+                <li><strong>Apple Watch:</strong> watchOS 10.0 or later (optional)</li>
                 <li><strong>Storage:</strong> Minimal (all data stored locally)</li>
             </ul>
         </div>
@@ -134,21 +92,17 @@
         <h2>Frequently Asked Questions</h2>
 
         <div class="faq-item">
-            <h3>How does stair tracking work?</h3>
+            <h3>How does floor tracking work?</h3>
             <div class="faq-answer">
-                <p>Climb Up uses two technologies to track your stair climbing:</p>
-                <ul>
-                    <li><strong>Apple HealthKit:</strong> Reads "Flights Climbed" data that your iPhone automatically collects from the motion sensors.</li>
-                    <li><strong>CoreMotion (CMPedometer):</strong> Provides real-time stair counting and step detection for immediate feedback.</li>
-                </ul>
-                <p>Both data sources are processed entirely on your device — nothing is sent to our servers.</p>
+                <p>ClimbUp uses your iPhone's built-in barometric altimeter and Apple HealthKit to automatically count the floors you climb throughout the day. No manual input is required — just keep your iPhone with you.</p>
+                <p>Each floor is approximately 3 meters (10 feet) of elevation gain, as defined by Apple Health.</p>
             </div>
         </div>
 
         <div class="faq-item">
             <h3>What health data does the app access?</h3>
             <div class="faq-answer">
-                <p>Climb Up reads the following health and fitness data from HealthKit (read-only, no writing):</p>
+                <p>ClimbUp reads the following health data from HealthKit (read-only, no writing):</p>
                 <ul>
                     <li>Flights Climbed</li>
                     <li>Step Count</li>
@@ -176,15 +130,45 @@
         <div class="faq-item">
             <h3>How do I manage health permissions?</h3>
             <div class="faq-answer">
-                <p>You can control which health data Climb Up can access:</p>
+                <p>You can control which health data ClimbUp can access:</p>
                 <ol>
                     <li>Open <strong>Settings</strong> on your iPhone</li>
                     <li>Go to <strong>Privacy</strong> → <strong>Health</strong></li>
-                    <li>Find <strong>Climb Up</strong> in the list</li>
+                    <li>Find <strong>ClimbUp</strong> in the list</li>
                     <li>Toggle individual data types on or off</li>
                     <li>Or tap the app name to revoke all permissions</li>
                 </ol>
                 <p>You can change these permissions at any time.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <h3>What is Live Climbing Mode?</h3>
+            <div class="faq-answer">
+                <p>Live Climbing Mode is a real-time tracking feature designed for dedicated stair climbing sessions. When you start a session, ClimbUp tracks your floors climbed, steps, calories burned, and elapsed time in real-time.</p>
+                <p>Perfect for stairwell workouts, hiking, or any activity where you want to see your progress as it happens.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <h3>Does it work with Apple Watch?</h3>
+            <div class="faq-answer">
+                <p><strong>Yes!</strong> ClimbUp includes a dedicated Apple Watch app with:</p>
+                <ul>
+                    <li>Climbing dashboard with today's floor count</li>
+                    <li>Goal progress ring</li>
+                    <li>Steps and calories at a glance</li>
+                    <li>Weekly trend chart</li>
+                </ul>
+                <p>The Apple Watch app works independently — no need to pull out your iPhone to check your progress.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <h3>Is ClimbUp a medical device?</h3>
+            <div class="faq-answer">
+                <p><strong>No.</strong> ClimbUp is a wellness and fitness tracking tool, not a medical device. It does not provide medical advice, diagnosis, or treatment. Information displayed is for general wellness purposes only.</p>
+                <p>If you have health concerns, please consult a healthcare professional.</p>
             </div>
         </div>
 
