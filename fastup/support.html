@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support — FastUp</title>
+    <style>
+        :root {
+            --brand-light: #4CAF50;
+            --bg-color: #F5F5F7;
+            --surface-color: #FFFFFF;
+            --text-primary: #1D1D1F;
+            --text-secondary: #86868B;
+            --border-color: #E5E5EA;
+            --font-heading: "New York", "ui-serif", Georgia, Cambria, "Times New Roman", Times, serif;
+            --font-body: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            font-family: var(--font-body);
+            -webkit-font-smoothing: antialiased;
+            line-height: 1.6;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: var(--surface-color);
+            border-radius: 24px;
+            padding: 48px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.04);
+        }
+
+        h1 {
+            font-family: var(--font-heading);
+            font-size: 36px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .subtitle {
+            color: var(--text-secondary);
+            font-size: 15px;
+            margin-bottom: 32px;
+        }
+
+        h2 {
+            font-family: var(--font-heading);
+            font-size: 22px;
+            font-weight: 600;
+            margin-top: 32px;
+            margin-bottom: 12px;
+            color: var(--brand-light);
+        }
+
+        p, li {
+            font-size: 16px;
+            color: var(--text-primary);
+            margin-bottom: 12px;
+        }
+
+        ul { padding-left: 24px; }
+        li { margin-bottom: 8px; }
+
+        .contact-box {
+            background: linear-gradient(135deg, rgba(76,175,80,0.08), rgba(76,175,80,0.02));
+            border-left: 3px solid var(--brand-light);
+            padding: 16px 20px;
+            border-radius: 12px;
+            margin: 24px 0;
+        }
+
+        .contact-box a {
+            color: var(--brand-light);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .faq-item {
+            margin-bottom: 24px;
+        }
+
+        .faq-item strong {
+            display: block;
+            margin-bottom: 6px;
+            font-size: 16px;
+        }
+
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border-color);
+            color: var(--text-secondary);
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Support</h1>
+        <p class="subtitle">FastUp — Intermittent Fasting Timer</p>
+
+        <div class="contact-box">
+            <p>Need help? Email us at <a href="mailto:nicholasarch.dev@gmail.com">nicholasarch.dev@gmail.com</a></p>
+            <p>We typically respond within 24 hours.</p>
+        </div>
+
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faq-item">
+            <strong>How does FastUp work?</strong>
+            <p>Select a fasting plan (16:8, 18:6, 20:4, etc.), tap "Start Fasting," and the timer begins. You'll receive a notification when your fasting window is complete.</p>
+        </div>
+
+        <div class="faq-item">
+            <strong>Is my data backed up?</strong>
+            <p>FastUp stores all data locally on your device. Your data is included in iCloud device backups if you have that enabled in iOS Settings.</p>
+        </div>
+
+        <div class="faq-item">
+            <strong>Does it work on Apple Watch?</strong>
+            <p>Yes! FastUp includes an Apple Watch companion app that shows your current fasting progress and lets you start/stop sessions from your wrist.</p>
+        </div>
+
+        <div class="faq-item">
+            <strong>Can I track my weight?</strong>
+            <p>Yes. Go to the "Me" tab to record your weight. FastUp shows a 30-day trend chart to help you see your progress over time.</p>
+        </div>
+
+        <div class="faq-item">
+            <strong>Is there a subscription?</strong>
+            <p>No. FastUp is a one-time purchase. You pay once and own it forever. No subscriptions, no in-app purchases, no hidden fees.</p>
+        </div>
+
+        <div class="faq-item">
+            <strong>What fasting plans are available?</strong>
+            <p>FastUp includes 16:8, 18:6, 20:4, 14:10, and OMAD (23:1). You can switch plans anytime from the "Me" tab.</p>
+        </div>
+
+        <div class="footer">
+            <p>FastUp v1.0.0</p>
+            <p>© 2025 HenryArch</p>
+        </div>
+    </div>
+</body>
+</html>
