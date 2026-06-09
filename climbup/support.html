@@ -1,183 +1,29 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ClimbUp — Support</title>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-            background-color: #f9f9f9;
-            color: #333;
-            line-height: 1.6;
-            padding: 20px;
-        }
-        .container {
-            max-width: 640px;
-            margin: 0 auto;
-            background-color: white;
-            padding: 40px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-        h1 { font-size: 28px; margin-bottom: 10px; color: #222; }
-        .subtitle {
-            color: #666;
-            font-size: 16px;
-            margin-bottom: 30px;
-            border-bottom: 1px solid #eee;
-            padding-bottom: 20px;
-        }
-        h2 { font-size: 20px; margin-top: 30px; margin-bottom: 15px; color: #222; }
-        h3 { font-size: 16px; margin-top: 20px; margin-bottom: 10px; color: #333; font-weight: 600; }
-        p { margin-bottom: 15px; text-align: justify; }
-        ul, ol { margin-left: 20px; margin-bottom: 15px; }
-        li { margin-bottom: 8px; }
-        a { color: #34C759; text-decoration: none; }
-        a:hover { text-decoration: underline; }
-        .faq-item {
-            margin-bottom: 25px;
-            padding-bottom: 20px;
-            border-bottom: 1px solid #eee;
-        }
-        .faq-item:last-child { border-bottom: none; }
-        .faq-answer { color: #555; margin-top: 10px; line-height: 1.7; }
-        .contact-box {
-            background-color: #f0f0f0;
-            padding: 20px;
-            border-radius: 8px;
-            margin: 20px 0;
-            text-align: center;
-        }
-        .contact-box p { margin-bottom: 10px; }
-        .contact-box a { font-size: 16px; font-weight: 600; }
-        .footer-link {
-            margin-top: 40px;
-            padding-top: 20px;
-            border-top: 1px solid #eee;
-            text-align: center;
-            font-size: 14px;
-        }
-        .requirements {
-            background-color: #f9f9f9;
-            padding: 15px;
-            border-radius: 4px;
-            margin: 15px 0;
-        }
-    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Support - ClimbUp</title>
+  <style>
+    body { margin: 0; font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #1f2933; background: #f7f8fb; }
+    main { max-width: 760px; margin: 0 auto; padding: 40px 20px 56px; }
+    section { background: #fff; border: 1px solid #e5e8ef; border-radius: 8px; padding: 28px; }
+    h1 { margin: 0 0 4px; font-size: 30px; line-height: 1.2; }
+    h2 { margin: 28px 0 8px; font-size: 20px; }
+    p, li { color: #52606d; }
+    a { color: #167a3f; }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>ClimbUp</h1>
-        <div class="subtitle">Track your stair climbing, set goals, and monitor your health</div>
-
-        <h2>Contact & Support</h2>
-        <p>For questions, feedback, or issues, please email us at:</p>
-        <div class="contact-box">
-            <p><a href="mailto:yslong.aksskas@gmail.com">yslong.aksskas@gmail.com</a></p>
-            <p style="font-size: 14px; color: #666;">We typically respond within 48 hours.</p>
-        </div>
-
-        <h2>System Requirements</h2>
-        <div class="requirements">
-            <ul>
-                <li><strong>iOS:</strong> 17.0 or later</li>
-                <li><strong>Device:</strong> iPhone</li>
-                <li><strong>Apple Watch:</strong> watchOS 10.0 or later (optional)</li>
-                <li><strong>Storage:</strong> Minimal (all data stored locally)</li>
-            </ul>
-        </div>
-
-        <h2>Frequently Asked Questions</h2>
-
-        <div class="faq-item">
-            <h3>How does floor tracking work?</h3>
-            <div class="faq-answer">
-                <p>ClimbUp uses your iPhone's built-in barometric altimeter and Apple HealthKit to automatically count the floors you climb throughout the day. No manual input is required — just keep your iPhone with you.</p>
-                <p>Each floor is approximately 3 meters (10 feet) of elevation gain, as defined by Apple Health.</p>
-            </div>
-        </div>
-
-        <div class="faq-item">
-            <h3>What health data does the app access?</h3>
-            <div class="faq-answer">
-                <p>ClimbUp reads the following health data from HealthKit (read-only, no writing):</p>
-                <ul>
-                    <li>Flights Climbed</li>
-                    <li>Step Count</li>
-                    <li>Active Energy Burned</li>
-                    <li>Sleep Analysis</li>
-                </ul>
-                <p>All data access is read-only. We never modify or write to your HealthKit data.</p>
-            </div>
-        </div>
-
-        <div class="faq-item">
-            <h3>Is my data shared with anyone?</h3>
-            <div class="faq-answer">
-                <p><strong>No.</strong> Your data stays on your device. We do not:</p>
-                <ul>
-                    <li>Send data to external servers</li>
-                    <li>Share data with third parties</li>
-                    <li>Use analytics or tracking services</li>
-                    <li>Sell or monetize your health information</li>
-                </ul>
-                <p>You have complete control over your health data.</p>
-            </div>
-        </div>
-
-        <div class="faq-item">
-            <h3>How do I manage health permissions?</h3>
-            <div class="faq-answer">
-                <p>You can control which health data ClimbUp can access:</p>
-                <ol>
-                    <li>Open <strong>Settings</strong> on your iPhone</li>
-                    <li>Go to <strong>Privacy</strong> → <strong>Health</strong></li>
-                    <li>Find <strong>ClimbUp</strong> in the list</li>
-                    <li>Toggle individual data types on or off</li>
-                    <li>Or tap the app name to revoke all permissions</li>
-                </ol>
-                <p>You can change these permissions at any time.</p>
-            </div>
-        </div>
-
-        <div class="faq-item">
-            <h3>What is Live Climbing Mode?</h3>
-            <div class="faq-answer">
-                <p>Live Climbing Mode is a real-time tracking feature designed for dedicated stair climbing sessions. When you start a session, ClimbUp tracks your floors climbed, steps, calories burned, and elapsed time in real-time.</p>
-                <p>Perfect for stairwell workouts, hiking, or any activity where you want to see your progress as it happens.</p>
-            </div>
-        </div>
-
-        <div class="faq-item">
-            <h3>Does it work with Apple Watch?</h3>
-            <div class="faq-answer">
-                <p><strong>Yes!</strong> ClimbUp includes a dedicated Apple Watch app with:</p>
-                <ul>
-                    <li>Climbing dashboard with today's floor count</li>
-                    <li>Goal progress ring</li>
-                    <li>Steps and calories at a glance</li>
-                    <li>Weekly trend chart</li>
-                </ul>
-                <p>The Apple Watch app works independently — no need to pull out your iPhone to check your progress.</p>
-            </div>
-        </div>
-
-        <div class="faq-item">
-            <h3>Is ClimbUp a medical device?</h3>
-            <div class="faq-answer">
-                <p><strong>No.</strong> ClimbUp is a wellness and fitness tracking tool, not a medical device. It does not provide medical advice, diagnosis, or treatment. Information displayed is for general wellness purposes only.</p>
-                <p>If you have health concerns, please consult a healthcare professional.</p>
-            </div>
-        </div>
-
-        <h2>Privacy & Data</h2>
-        <p>For detailed information about how we handle your data, please read our <a href="privacy.html">Privacy Policy</a>.</p>
-
-        <div class="footer-link">
-            <a href="privacy.html">Privacy Policy →</a>
-        </div>
-    </div>
+  <main>
+    <section>
+      <h1>ClimbUp Support</h1>
+      <p>For questions, feedback, purchase help, or account deletion requests, email <a href="mailto:yslong.aksskas@gmail.com">yslong.aksskas@gmail.com</a>.</p>
+      <h2>Subscriptions</h2>
+      <p>ClimbUp+ subscriptions are managed through Apple. You can restore purchases in the app or manage/cancel subscriptions in your App Store account settings.</p>
+      <h2>Privacy</h2>
+      <p>Read the <a href="privacy.html">Privacy Policy</a> for details about HealthKit, Game Center, CloudKit, and subscription data.</p>
+    </section>
+  </main>
 </body>
 </html>
