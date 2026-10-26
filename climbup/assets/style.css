@@ -2,3 +2,5 @@
 .release-notice{margin-top:24px;padding:16px 20px;border:1px solid #ccd7bd;border-radius:16px;background:#eaf0df;color:#405137;font-size:14px;line-height:1.6}.release-notice strong{color:#20301d}
 
 .version-note{font-size:13px;line-height:1.6;max-width:460px;margin-top:18px;color:#58615b}.version-note strong{font-weight:650;color:#36492b}
+
+.article ol{padding-left:25px;color:#58615b}.article li{margin-top:14px}.demo-figure{margin:30px 0}.demo-figure video{display:block;width:min(100%,360px);height:auto;border-radius:24px;background:#14201e}.demo-figure figcaption{font-size:13px;color:#65705f;margin-top:10px}
